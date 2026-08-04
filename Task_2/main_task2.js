@@ -112,22 +112,22 @@ const http = require("node:http");
 // console.log(read("Task_2\\notes.txt"));
 
 // 15.
-async function write(filePath, content) {
-  await fs.writeFile(filePath, content, { encoding: "utf-8" });
-  return `Async save success`;
-}
+// async function write(filePath, content) {
+//   await fs.writeFile(filePath, content, { encoding: "utf-8" });
+//   return `Async save success`;
+// }
 
-async function main() {
-  const filePath = path.resolve("notes.txt");
-  try {
-    const result = await write(filePath, "Async save amir slit");
-    console.log(result);
-  } catch (err) {
-    console.log(err.message);
-  }
-}
+// async function main() {
+//   const filePath = path.resolve("notes.txt");
+//   try {
+//     const result = await write(filePath, "Async save amir slit");
+//     console.log(result);
+//   } catch (err) {
+//     console.log(err.message);
+//   }
+// }
 
-main();
+// main();
 
 // 16;
 // function check(filePath) {
