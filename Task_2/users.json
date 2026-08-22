@@ -1,0 +1,8 @@
+[
+  { "name": "user1", "age": 30, "email": "user1.email.com", "id": 1 },
+  { "name": "user2", "age": 12, "email": "user2.email.com", "id": 2 },
+  { "name": "user3", "age": 40, "email": "user3.email.com", "id": 3 },
+  { "name": "user4", "age": 67, "email": "user4.email.com", "id": 4 },
+  { "userName": "Ashraf", "email": "Ashraf@gmail.com", "password": "4567" },
+  { "name": "amir", "email": "amir@gmail.com", "password": "123" }
+]

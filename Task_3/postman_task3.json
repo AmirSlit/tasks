@@ -1,0 +1,342 @@
+{
+  "info": {
+    "_postman_id": "a2db0bde-fac5-464f-b985-895d886c7894",
+    "name": "Blog App",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "57060544",
+    "_collection_link": "https://go.postman.co/collection/57060544-a2db0bde-fac5-464f-b985-895d886c7894?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "CRUD Products 2",
+      "item": [
+        {
+          "name": "careat product",
+          "request": {
+            "method": "GET",
+            "header": []
+          },
+          "response": []
+        },
+        {
+          "name": "Retrieve all products.",
+          "request": {
+            "method": "GET",
+            "header": []
+          },
+          "response": []
+        },
+        {
+          "name": "Retrieve a product by ID.",
+          "request": {
+            "method": "GET",
+            "header": []
+          },
+          "response": []
+        },
+        {
+          "name": "update product",
+          "request": {
+            "method": "GET",
+            "header": []
+          },
+          "response": []
+        },
+        {
+          "name": "delete product",
+          "request": {
+            "method": "GET",
+            "header": []
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "CRUD Suppliers 3",
+      "item": [
+        {
+          "name": "create supplier",
+          "request": {
+            "method": "GET",
+            "header": []
+          },
+          "response": []
+        },
+        {
+          "name": "Retrieve all suppliers.",
+          "request": {
+            "method": "GET",
+            "header": []
+          },
+          "response": []
+        },
+        {
+          "name": "update suppliers",
+          "request": {
+            "method": "GET",
+            "header": []
+          },
+          "response": []
+        },
+        {
+          "name": "delete suppliers",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "localhost:3000/suppliers/2",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "suppliers",
+                "2"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Manage Sales 4",
+      "item": [
+        {
+          "name": "Record a sale.",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n     \"ProductID\":11, \"QuantitySold\":14, \"SaleDate\":\"2026-08-19\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "localhost:3000/slaes",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "slaes"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Retrieve all sales",
+          "request": {
+            "method": "GET",
+            "header": []
+          },
+          "response": []
+        },
+        {
+          "name": "one sales",
+          "request": {
+            "method": "GET",
+            "header": []
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "database modifications 5",
+      "item": [
+        {
+          "name": "Add Column",
+          "request": {
+            "method": "GET",
+            "header": []
+          },
+          "response": []
+        },
+        {
+          "name": "remove Column",
+          "request": {
+            "method": "GET",
+            "header": []
+          },
+          "response": []
+        },
+        {
+          "name": "change type",
+          "request": {
+            "method": "GET",
+            "header": []
+          },
+          "response": []
+        },
+        {
+          "name": "change productName",
+          "request": {
+            "method": "GET",
+            "header": []
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "insert  data 6",
+      "item": [
+        {
+          "name": "Add supplier",
+          "request": {
+            "method": "GET",
+            "header": []
+          },
+          "response": []
+        },
+        {
+          "name": "add milk",
+          "request": {
+            "method": "GET",
+            "header": []
+          },
+          "response": []
+        },
+        {
+          "name": "record sale",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"QuantitySold\":2,\"SaleDate\":\"2025-05-20\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "localhost:3000/addSale/15",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "addSale",
+                "15"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "update Price 7",
+      "item": [
+        {
+          "name": "update price",
+          "request": {
+            "method": "GET",
+            "header": []
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "delete Product 8",
+      "item": [
+        {
+          "name": "delete Product",
+          "request": {
+            "method": "GET",
+            "header": []
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Total Quantity Sold 9",
+      "item": [
+        {
+          "name": "totalQuantitySold",
+          "request": {
+            "method": "GET",
+            "header": []
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "highest-stock-quantity 10",
+      "item": [
+        {
+          "name": "highest-stock-quantity",
+          "request": {
+            "method": "GET",
+            "header": []
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "suppliers-start-with-F 11",
+      "item": [
+        {
+          "name": "suppliers-start-with-F",
+          "request": {
+            "method": "GET",
+            "header": []
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Products-never-sold 12",
+      "item": [
+        {
+          "name": "Products-never-sold",
+          "request": {
+            "method": "GET",
+            "header": []
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "retrieve-join 13",
+      "item": [
+        {
+          "name": "retrieve-join",
+          "request": {
+            "method": "GET",
+            "header": []
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Create store_manager 14",
+      "item": [
+        {
+          "name": "store_manager",
+          "request": {
+            "method": "GET",
+            "header": []
+          },
+          "response": []
+        }
+      ]
+    }
+  ]
+}
